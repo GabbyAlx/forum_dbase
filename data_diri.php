@@ -81,7 +81,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $hobi_tampil = 'Tidak ada hobi yang dipilih';
         }
 
-        // Simpan ke database
         mysqli_report(MYSQLI_REPORT_OFF);
         $koneksi = @new mysqli($db_host, $db_user, $db_pass, $db_name);
 
